@@ -5,8 +5,8 @@ import Section from './Slider';
 const HomeScreen = () => {
     const spotlightData = {
         title: 'Ready Player One',
-        rating: '',
-        image:'',
+        rating: 'Movie about gaming kinda',
+        image:'https://',
     };
 
     const sectionData = [

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomeScreen from './components/HomeScreen'
 
 function App() {
