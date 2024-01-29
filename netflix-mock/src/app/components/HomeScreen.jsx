@@ -6,7 +6,7 @@ const HomeScreen = () => {
     const spotlightData = {
         title: 'Ready Player One',
         rating: '',
-        image:''
+        image:'',
     };
 
     const sectionData = [
