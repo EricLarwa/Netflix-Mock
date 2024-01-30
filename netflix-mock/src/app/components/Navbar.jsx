@@ -1,8 +1,10 @@
 "use client"
 import React from "react";
-import {useState, useEffect} from 'react';
-import {Nav, Navbar, Container} from 'react-bootstrap';
-import {browserRouter as Router} from 'react-router-dom';
+import useState from 'react';
+import useEffect from 'react'
+import Navbar from 'react-bootstrap'
+import Container  from 'react-bootstrap';
+import { browserRouter as Router } from 'react-router-dom';
 
 const NavBar = () => {
 
