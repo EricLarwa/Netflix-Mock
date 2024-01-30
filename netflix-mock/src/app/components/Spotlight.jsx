@@ -4,7 +4,7 @@ import React from 'react'
 const Spotlight = ({ title, rating, image, onPlayClick, onListClick, onInfoClick}) => {
     return (
         <div className="spotlight"> 
-            <img src={imgUrl} alt=""/>
+            <img src={image} alt=""/>
             <div className="gradient"></div>
             <div className="info"></div>
                 <h1 className="title">{title}</h1>
