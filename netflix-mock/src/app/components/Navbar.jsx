@@ -1,9 +1,10 @@
+"use client"
 import React from "react";
-import {useState, UseEffect} from 'react';
+import {useState, useEffect} from 'react';
 import {Nav, Navbar, Container} from 'react-bootstrap';
 import {browserRouter as Router} from 'react-router-dom';
 
-const Navbar = () => {
+const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState("home");
     const [scrolled, setScrolled] = useState(false);
@@ -43,5 +44,4 @@ const Navbar = () => {
     )
 }
 
-
-export default Navbar;
+export default NavBar;

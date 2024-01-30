@@ -3,8 +3,7 @@ import React from 'react'
 
 const Spotlight = ({ title, rating, image, onPlayClick, onListClick, onInfoClick}) => {
     return (
-        <div className="spotlight"> 
-            <img src={image} alt=""/>
+        <div className="spotlight" style={{ backgroundImage: `url(${image})` }}>
             <div className="gradient"></div>
             <div className="info"></div>
                 <h1 className="title">{title}</h1>

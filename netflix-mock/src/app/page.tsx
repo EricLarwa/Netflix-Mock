@@ -1,11 +1,13 @@
 import HomeScreen from './components/HomeScreen'
+import NavBar from './components/Navbar'
 
-function App() {
+const HomePage = () => {
   return (
-    <div className='App'>
+    <div className='Home'>
         <HomeScreen />
+        <NavBar />
     </div>
   );
 }
 
-export default App;
+export default HomePage;

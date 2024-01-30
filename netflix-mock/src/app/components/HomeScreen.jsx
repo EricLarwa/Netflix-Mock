@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import Spotlight from './Spotlight';
 import Section from './Slider';
 
@@ -6,7 +6,7 @@ const HomeScreen = () => {
     const spotlightData = {
         title: 'Ready Player One',
         rating: 'Movie about gaming kinda',
-        image:'https://',
+        image:'https://imageio.forbes.com/blogs-images/scottmendelson/files/2018/03/rpo_poster-1200x675.jpg?format=jpg&height=900&width=1600&fit=bounds',
     };
 
     const sectionData = [
@@ -39,7 +39,7 @@ const HomeScreen = () => {
         <div className="homescreen">
             <Spotlight {...spotlightData} />
             {sectionData.map ((section) => (
-                <Section key={section.title} series ={section.series} />
+                <Section key={section.title} title={section.title} series={section.series} />
             ))}
         </div>
     );
